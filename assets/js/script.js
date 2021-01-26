@@ -855,7 +855,7 @@ Author:
 					nav: true,
 					dots: false,
 					loop:true,
-					center:true,
+					center:false,
 					autoplay: false,
 					navText:["<i class='fas fa-angle-left'></i>","<i class='fas fa-angle-right'></i>"],
 					smartSpeed: 1000,

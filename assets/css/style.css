@@ -13391,7 +13391,6 @@ Sticky Menu
 
 .dia-banner-section .dia-banner-content .dia-banner-btn .dia-abt-btn:hover:before,
 .dia-features-section .dia-features-btn .dia-features-more:hover:before,
-.dia-contact-section .dio-exp-text-area .dia-contact-btn:hover:before,
 .dia-port-more a:hover:before,
 .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button:hover:before {
   bottom: 0;
@@ -14123,7 +14122,7 @@ div#dia-preloader {
 }
 
 /*---------------------------------------------------- */
-/*features area*/
+/*Features area*/
 /*----------------------------------------------------*/
 .dia-features-section {
   padding-bottom: 115px;
@@ -14153,13 +14152,15 @@ div#dia-preloader {
 }
 
 .dia-features-section .dia-features-details {
-  margin: 35px 0px 5px;
+  margin: 50px 0px 5px;
 }
 
 .dia-features-section .dia-features-details .dia-features-item {
   width: 50%;
   float: left;
   margin-bottom: 30px;
+  font-size: 15px;
+  color: #606b86;
 }
 
 .dia-features-section .dia-features-details .dia-features-item h3 {
@@ -14172,6 +14173,10 @@ div#dia-preloader {
   letter-spacing: normal;
   color: #262b36;
   padding-bottom: 16px;
+}
+
+.dia-features-section .dia-features-details .dia-features-item .info-box-icon  {
+  margin-bottom: 30px;
 }
 
 .dia-features-section .dia-features-details .dia-features-item li {
@@ -14242,12 +14247,19 @@ div#dia-preloader {
   right: -20px;
 }
 .dia-update-section .ab-shape2{
-  top: 20%;
+  top: 30%;
   left: -100px;
 }
 .dia-update-section .ab-shape2.bottom{
   top: 76%;
   right: -10px;
+}
+.dia-update-section .dia-section-title{
+  margin-top: 80px;
+}
+.dia-update-section .items {
+  margin-top: 80px;
+  padding-left: 40px;
 }
 .dia-update-section .info-box{
   background-color: transparent;
@@ -14329,60 +14341,46 @@ div#dia-preloader {
   z-index: -1;
 }
 
+/*---------------------------------------------------- */
+/*Contact area*/
+/*----------------------------------------------------*/
 .dia-contact-section {
   padding: 115px 0px 75px;
 }
 
-.dia-contact-section .dia-contact-img .ab-shape1 {
-  top: 60px;
-  left: -5px;
-  z-index: -1;
+.dia-contact-section .dia-section-title h2{
+  margin-right: 70px;
 }
 
-.dia-contact-section .dia-contact-img .ab-shape2 {
-  bottom: 20px;
-  right: 20px;
-  z-index: -1;
+.dia-contact-section form label{
+  font-size: 15px;
+  font-family: Inter;
+
+  font-size: 15px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.6;
+
+  letter-spacing: normal;
+
+  color: #262b36;
+  margin-bottom: 12px;
 }
 
-.dia-contact-section .skill-progress-bar {
-  padding: 20px 0px 20px;
+.dia-contact-section form input{
+  padding: 12px 328px 12px 23px;
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+  background-color: #ffffff;
 }
-
-.dia-contact-section .skill-progress-bar .skill-set-percent {
-  margin-bottom: 30px;
-}
-
-.dia-contact-section .skill-progress-bar .skill-set-percent h4 {
-  font-size: 16px;
-  font-weight: 700;
-  font-family: "Roboto";
-}
-
-.dia-contact-section .skill-progress-bar .skill-set-percent .progress {
-  height: 6px;
-  border-radius: 0;
-  overflow: visible;
-  position: relative;
-  background-color: #dededf;
-}
-
-.dia-contact-section .skill-progress-bar .skill-set-percent .progress span {
-  right: 0;
-  top: -30px;
-  color: #282350;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-}
-
-.dia-contact-section .skill-progress-bar .skill-set-percent .progress-bar {
-  width: 0;
-  float: left;
-  height: 100%;
-  position: relative;
-  background-color: #ff6700;
-  transition: 1s all ease-in-out;
+.dia-contact-section form input::placeholder,
+.dia-contact-section form textarea::placeholder{
+  color: #cccccc;
 }
 
 /*---------------------------------------------------- */

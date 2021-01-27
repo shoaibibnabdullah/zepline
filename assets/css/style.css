@@ -13395,6 +13395,17 @@ Sticky Menu
 .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button:hover:before {
   bottom: 0;
 }
+.dia-banner-section .banner-img-1{
+  position: relative;
+  top: 100px;
+  right: -60px;
+}
+.dia-banner-section .banner-img-2{
+  position: relative;
+  right: -150px;
+  top: -40px;
+}
+
 @keyframes borderpls {
   0% {
     box-shadow: 0 0 0 0 #082680;
@@ -13952,6 +13963,11 @@ div#dia-preloader {
   bottom: 0;
 }
 
+.dia-banner-section .ab-shape2.right{
+  bottom: 0;
+  right: -70px;
+}
+
 .dia-banner-section .dia-banner-content {
   padding: 140px 0px 185px;
 }
@@ -14115,10 +14131,16 @@ div#dia-preloader {
   line-height: 1.6;
   letter-spacing: normal;
   color: #606b86;
+  padding-top: 150px;
 }
 
 .dia-welcome-section .ab-shape2 {
-  right: -10px;
+  right: -80px;
+}
+
+.dia-welcome-section .ab-shape2.second {
+  right: -90px;
+  top: 200px;
 }
 
 /*---------------------------------------------------- */
@@ -14244,16 +14266,38 @@ div#dia-preloader {
 /*update area*/
 /*----------------------------------------------------*/
 .dia-update-section .bg.position-absolute{
-  right: -20px;
+  right: -150px;
 }
 .dia-update-section .ab-shape2{
-  top: 30%;
+  top: 20%;
   left: -100px;
 }
 .dia-update-section .ab-shape2.bottom{
   top: 76%;
   right: -10px;
 }
+.dia-update-section .update-img-1,
+.dia-update-section .update-img-2,
+.dia-update-section .update-img-3 {
+  position: relative;
+}
+.dia-update-section .update-img-1 {
+  width: 70%;
+  left: -150px;
+}
+.dia-update-section .update-img-2 {
+  width: 70%;
+  top: -15%;
+  left: 170px;
+  z-index: 1;
+}
+.dia-update-section .update-img-3 {
+  width: 85%;
+  top: -30%;
+  left: -120px;
+  z-index: 2;
+}
+.dia-update-section
 .dia-update-section .dia-section-title{
   margin-top: 80px;
 }
@@ -14267,6 +14311,11 @@ div#dia-preloader {
   max-width: 400px;
   margin: auto;
   box-shadow: 0 0 0 0;
+  margin-bottom: 20px;
+}
+.dia-update-section .info-box .info-box-content{
+  padding-left: 25px;
+  padding-top: 6px;
 }
 .dia-update-section .info-box .info-box-content span,
 .dia-update-section .info-box .info-box-content p {
@@ -14985,9 +15034,9 @@ div#dia-preloader {
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
-  width: 70px;
-  height: 70px;
-  border-radius: 70px;
+  width: 55px;
+  height: 55px;
+  border-radius: 55px;
 }
 
 .info-box .info-box-content {

@@ -95,7 +95,7 @@ theme.
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
   /*----------------------------------------------------*/
-  /*Container*/
+  /*Global*/
   /*----------------------------------------------------*/
   body{
     font-family: "Inter";
@@ -180,6 +180,20 @@ theme.
   }
   button {
     cursor: pointer;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 14.5px 28px;
+    border-radius: 5px;
+  }
+  .btn-suceess{
+    background-color: #3acf6e;
+  }
+  .btn-primary-outline{
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
   }
   .form-control:focus,
   button:visited,
@@ -14293,11 +14307,10 @@ div#dia-preloader {
 }
 .dia-update-section .update-img-3 {
   width: 85%;
-  top: -30%;
+  top: -27%;
   left: -120px;
   z-index: 2;
 }
-.dia-update-section
 .dia-update-section .dia-section-title{
   margin-top: 80px;
 }
@@ -14588,220 +14601,19 @@ div#dia-preloader {
 /*---------------------------------------------------- */
 /*Team area*/
 /*----------------------------------------------------*/
-/* .dia-team-section {
-  padding-top: 110px;
-}
-
-.dia-team-section .dia-section-title {
-  margin: 0 auto;
-  max-width: 530px;
-}
-
-.dia-team-section .dia-section-title h2 {
-  padding-bottom: 10px;
-}
-
-.dia-team-section .dia-team-content {
-  padding-top: 55px;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-img:after {
-  width: 236px;
-  height: 236px;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 100px;
-  opacity: 0;
-  visibility: hidden;
-  border: double 2px transparent;
-  border-radius: 100%;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #ff6600, #ff9903, #ffcb05);
-  background-origin: border-box;
-  transition: 0.3s all ease-in-out;
-  background-clip: content-box, border-box;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-img .team-mem-img-ei {
-  z-index: 1;
-  width: 236px;
-  height: 236px;
-  margin: 0 auto;
-  border-radius: 100%;
-  overflow: hidden;
-  background-color: #eff0f7;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-img .team-mem-img-ei .mshape-bg {
-  width: 100%;
-  z-index: -1;
-  height: 100%;
-  position: absolute;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-img .team-mem-img-ei .shape-bg1 {
-  top: 90px;
-  left: -75px;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-img .team-mem-img-ei .shape-bg2 {
-  top: 100px;
-  z-index: -2;
-  right: -68px;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social {
-  top: 47px;
-  z-index: 1;
-  right: 50px;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  transition-delay: 0.2s;
-  transition: 0.5s all ease-in-out;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a {
-  width: 35px;
-  height: 35px;
-  display: block;
-  text-align: center;
-  line-height: 37px;
-  margin-bottom: 12px;
-  border-radius: 100%;
-  position: relative;
-  z-index: 1;
-  background-color: #fff;
-  box-shadow: 0px 0px 18px 0px rgba(43, 1, 68, 0.23);
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a:after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  width: 100%;
-  z-index: -1;
-  transition: 0.3s all ease-in-out;
-  border-radius: 100%;
-  background-image: linear-gradient(81deg, #ff6600 0%, #ff9903 75%, #ffcb05 100%);
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a:nth-child(1) {
-  color: #118bfc;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a:nth-child(2) {
-  transform: translateX(15px);
-  color: #03a9f4;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a:nth-child(3) {
-  transform: translateX(9px);
-  margin-bottom: 5px;
-  color: #ea4c89;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a:nth-child(4) {
-  color: #0c6eff;
-  transform: translateX(-20px);
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a:hover {
-  color: #fff;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-social a:hover:after {
-  opacity: 1;
-  visibility: visible;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-text {
-  margin-top: 20px;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-text h3 {
-  color: #282350;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.dia-team-section .dia-team-pic-text .dia-team-text p {
-  color: #383838;
-  font-size: 15px;
-}
-
-.dia-team-section .dia-team-pic-text:hover .dia-team-img:after {
-  opacity: 1;
-  left: 102px;
-  visibility: visible;
-}
-
-.dia-team-section .dia-team-pic-text:hover .dia-team-social {
-  opacity: 1;
-  right: 25px;
-  visibility: visible;
-}
-
-.dia-team-section .dia-team-content {
-  z-index: 1;
-  margin: 0 auto;
-  max-width: 1100px;
-}
-
-.dia-team-section .dia-team-content .owl-nav .owl-prev,
-.dia-team-section .dia-team-content .owl-nav .owl-next {
-  top: 50%;
-  width: 52px;
-  height: 52px;
-  cursor: pointer;
-  line-height: 52px;
-  text-align: center;
-  position: absolute;
-  border-radius: 100%;
-  display: inline-block;
-  background-color: #fff;
-  transform: translateY(-50%);
-  transition: 0.3s all ease-in-out;
-  box-shadow: 0px 7px 18px 0px rgba(16, 31, 60, 0.25);
-}
-
-.dia-team-section .dia-team-content .owl-nav .owl-prev:hover,
-.dia-team-section .dia-team-content .owl-nav .owl-next:hover {
-  color: #fff;
-  background-color: #282350;
-}
-
-.dia-team-section .dia-team-content .owl-nav .owl-prev {
-  left: -40px;
-}
-
-.dia-team-section .dia-team-content .owl-nav .owl-next {
-  right: -50px;
-}
-
-.dia-team-section .dia-team-content .owl-item.active.center .dia-team-img:after {
-  left: 102px;
-  opacity: 1;
-  visibility: visible;
-}
-
-.dia-team-section .dia-team-content .owl-item.active.center .dia-team-social {
-  opacity: 1;
-  right: 25px;
-  visibility: visible;
-} */
 
 .dia-team-section .dia-team-pic-text {
-  margin: 0 25px;
+  margin: 30px 25px;
 }
 
 .dia-team-section .dia-team-pic-text .card {
   padding: 30px 42px 39px 30px;
   border-radius: 24px;
   border: 0;
+}
+
+.dia-team-section .name-designation p {
+  color: #606b86;
 }
 
 .dia-team-section .dia-team-pic-text .card-body {
@@ -14811,8 +14623,8 @@ div#dia-preloader {
 
 .dia-team-section .dia-team-pic-text .card-body img {
   position: absolute;
-  top: -30px;
-  right: -20px;
+  top: -18px;
+  right: -15px;
   width: 65px;
 }
 
@@ -14831,6 +14643,7 @@ div#dia-preloader {
   top: 50%;
   width: 42px;
   height: 42px;
+  color: #ffffff;
   cursor: pointer;
   line-height: 42px;
   text-align: center;
@@ -14845,8 +14658,7 @@ div#dia-preloader {
 
 .dia-team-section .dia-team-content .owl-nav .owl-prev:hover,
 .dia-team-section .dia-team-content .owl-nav .owl-next:hover {
-  color: #fff;
-  background-color: #282350;
+  opacity: 1;
 }
 
 .dia-team-section .dia-team-content .owl-nav .owl-prev {
